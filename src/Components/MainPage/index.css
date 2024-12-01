@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbar{
+    background-color: #FFF7E2;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.navbar-list-items-container{
+    display: flex;
+}
+
+.list-item{
+    font-family: roboto;
+    color: #474747;
+    margin-right: 12px;
+    list-style-type: none;
+}
+
+.list-item:hover{
+    font-weight: bold;
+}
+
+.selected-list-item{
+    font-family: roboto;
+    color: #3A643B;
+    margin-right: 12px;
+    font-weight: 700;
+    list-style-type: none;
+}
+
+.login-btn{
+    background-color: transparent;
+    border: 1px solid #3A643B;
+    padding: 12px;
+    border-radius: 10px;
+    margin-right: 12px;
+    font-family: roboto;
+    color: #3A643B;
+}
+
+.signup-btn{
+    background-color: #3A643B;
+    padding: 12px;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    font-family: roboto;
+}
+
+.top-image{
+    width: 100%;
+}
+
+.filters-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+.dropdown{
+    margin-right: 14px;
+    background-color: #F3F3F3;
+    height: 32px;
+    border-radius: 6px;
+    font-family: roboto;
+    padding: 6px;
+    background-color: #F3F3F3;
+}
+
+.filters-list{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.filter-list-item{
+    list-style-type: none;
+    background-color: #EAF2EA;
+    padding: 6px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+
+.appointments-parent-container{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.appointments-container{
+    background-color: #FFF7E2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 6px;
+    margin-right: 12px;
+}
+
+.doc-name{
+    font-family: roboto;
+    font-size: 22px;
+    color: #2E2F2E;
+    font-weight: 700;
+}
+
+.designation{
+    font-family: roboto;
+    color: #646665;
+    font-size: 14px;
+}
+
+.consultation-type-parent-container{
+    display: flex;
+}
+
+.consultation-type-container{
+    border: 1px solid #3A643B63;
+    border-radius: 8px;
+    text-align: center;
+    margin-right: 4px;
+    padding: 8px;
+}
+
+.consultation-type{
+    font-family: roboto;
+    color: #3C3C3C;
+    font-weight: 600;
+}
+
+.consultation-fee{
+    color: #3A643B;
+    font-weight: bold;
+}
+
+.view-profile-btn{
+    background-color: #fff;
+    border: 1px solid #3A643B;
+    font-family: roboto;
+    color: #3A643B;
+    width: 100%;
+    margin: 8px;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.view-profile-btn:hover{
+    background-color: #3A643B;
+    color: #fff;
+}
+
+.book-consultation-btn{
+    background-color: #3A643B;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: roboto;
+    color: #fff;
+    width: 100%;
+    border: 0;
+}
+
+.book-consultation-btn:hover{
+    background-color: #fff;
+    color: #3A643B;
+    border: 1px solid #3A643B;
+}
+
+.buttons-container{
+    display: flex;
+}
